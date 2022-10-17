@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MatRoot Version="11">
+  <HkCTableMD Name="[memory_optimized_history_table_1179151246]" Schema="[sys]" DbId="19" ObjectId="1211151360" MdVersion="182643496264490" IsTableType="false" IsNonDurableTable="false" PrimaryKey="0" IdentityColumn="0" CSRIDColumn="7" HkDRTableId="4294966795" HkDictTableId="4294966795" HkSegTableId="4294966795" HkRGInfoTableId="4294966795" CompressionDelay="-2" SessionDateFormat="1" IsANSITruncWarnOn="true">
+    <Columns CColumns="7">
+      <HkCColumnMD Name="[CHANGE_ID]" ObjectId="1211151360" ColumnId="1" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkBigInt" nullable="false" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[ColdRoomTemperatureID]" ObjectId="1211151360" ColumnId="2" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkBigInt" nullable="false" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[ColdRoomSensorNumber]" ObjectId="1211151360" ColumnId="3" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkInt" nullable="false" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[RecordedWhen]" ObjectId="1211151360" ColumnId="4" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkDateTime2" nullable="false" scale="7" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[Temperature]" ObjectId="1211151360" ColumnId="5" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkNumeric" nullable="false" precision="10" scale="2" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[ValidFrom]" ObjectId="1211151360" ColumnId="6" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkDateTime2" nullable="false" scale="7" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[ValidTo]" ObjectId="1211151360" ColumnId="7" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkDateTime2" nullable="false" scale="7" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+    </Columns>
+    <Indexes CIndexes="1">
+      <HkCIndexMD Name="[PK__memory_o__771DEF9286AA584E]" ObjectId="1211151360" IndexId="2" IsHashIndex="false" NumBuckets="0" IsUnique="true">
+        <ColumnOrds CColumns="4" _0="6" _1="5" _2="1" _3="0" />
+        <ColumnDesc CColumns="4" _0="false" _1="false" _2="false" _3="false" />
+      </HkCIndexMD>
+    </Indexes>
+  </HkCTableMD>
+</MatRoot>

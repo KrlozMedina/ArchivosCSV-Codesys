@@ -1,0 +1,36 @@
+Microsoft (R) C/C++ Optimizing Compiler Version 19.15.26732.1 for x64
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+xtp_t_6_1243151474_182643496265976_1.c
+Microsoft (R) Incremental Linker Version 14.15.26732.1
+Copyright (C) Microsoft Corporation.  All rights reserved.
+
+/out:xtp_t_6_1243151474_182643496265976_1.dll 
+/ltcg 
+/debug 
+/guard:cf 
+/dll 
+/implib:xtp_t_6_1243151474_182643496265976_1.lib 
+"/LIBPATH:C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\Binn\Xtp\gen\lib" 
+"/LIBPATH:C:\Program Files\Microsoft SQL Server\MSSQL15.SQLEXPRESS\MSSQL\Binn\Xtp\VC\lib" 
+/noentry 
+/nodefaultlib 
+/incremental:no 
+/dynamicbase 
+/ltcg 
+/wx 
+/FUNCTIONPADMIN 
+/fastfail:no 
+/filealign:4096 
+xtp_t_6_1243151474_182643496265976_1.obj 
+hkgenlib.lib 
+hkruntime.lib 
+hkengine.lib 
+hkgenexp.exp 
+libcmt.lib 
+libvcruntime.lib 
+ucrt.lib 
+kernel32.lib 
+hkversion.obj 
+Generating code
+Finished generating code

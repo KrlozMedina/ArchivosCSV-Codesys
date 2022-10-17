@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MatRoot Version="11">
+  <HkCTableMD Name="[VehicleTemperatures]" Schema="[Warehouse]" DbId="19" ObjectId="1243151474" MdVersion="182643496265976" IsTableType="false" IsNonDurableTable="false" PrimaryKey="0" IdentityColumn="0" CSRIDColumn="8" HkDRTableId="4294966795" HkDictTableId="4294966795" HkSegTableId="4294966795" HkRGInfoTableId="4294966795" CompressionDelay="-2" SessionDateFormat="1" IsANSITruncWarnOn="true">
+    <Columns CColumns="8">
+      <HkCColumnMD Name="[VehicleTemperatureID]" ObjectId="1243151474" ColumnId="1" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkBigInt" nullable="false" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[VehicleRegistration]" ObjectId="1243151474" ColumnId="2" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkVarWChar" nullable="false" collation="53256" maxLength="40" />
+        </Type>
+        <ConstDefault>
+          <HkValue PalData.Pointer="" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[ChillerSensorNumber]" ObjectId="1243151474" ColumnId="3" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkInt" nullable="false" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[RecordedWhen]" ObjectId="1243151474" ColumnId="4" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkDateTime2" nullable="false" scale="7" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[Temperature]" ObjectId="1243151474" ColumnId="5" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkNumeric" nullable="false" precision="10" scale="2" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[FullSensorData]" ObjectId="1243151474" ColumnId="6" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkVarWChar" nullable="true" collation="53256" maxLength="2000" />
+        </Type>
+        <ConstDefault>
+          <HkValue PalData.Pointer="" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[IsCompressed]" ObjectId="1243151474" ColumnId="7" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkBit" nullable="false" />
+        </Type>
+        <ConstDefault>
+          <HkValue UnsignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[CompressedSensorData]" ObjectId="1243151474" ColumnId="8" OffRowTableId="2147483653" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkMaxVarBin" nullable="true" />
+        </Type>
+        <ConstDefault>
+          <HkValue PalData.Pointer="" />
+        </ConstDefault>
+      </HkCColumnMD>
+    </Columns>
+    <Indexes CIndexes="1">
+      <HkCIndexMD Name="[PK_Warehouse_VehicleTemperatures]" ObjectId="1243151474" IndexId="2" IsHashIndex="false" NumBuckets="0" IsUnique="true">
+        <ColumnOrds CColumns="1" _0="0" />
+        <ColumnDesc CColumns="1" _0="false" />
+      </HkCIndexMD>
+    </Indexes>
+  </HkCTableMD>
+</MatRoot>

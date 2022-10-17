@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<MatRoot Version="11">
+  <HkCTableMD Name="[ColdRoomTemperatures]" Schema="[Warehouse]" DbId="19" ObjectId="1179151246" MdVersion="182643496264181" IsTableType="false" IsNonDurableTable="false" PrimaryKey="0" IdentityColumn="0" CSRIDColumn="6" HkDRTableId="4294966795" HkDictTableId="4294966795" HkSegTableId="4294966795" HkRGInfoTableId="4294966795" CompressionDelay="-2" SessionDateFormat="1" IsANSITruncWarnOn="true">
+    <Columns CColumns="6">
+      <HkCColumnMD Name="[ColdRoomTemperatureID]" ObjectId="1179151246" ColumnId="1" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkBigInt" nullable="false" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[ColdRoomSensorNumber]" ObjectId="1179151246" ColumnId="2" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkInt" nullable="false" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[RecordedWhen]" ObjectId="1179151246" ColumnId="3" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkDateTime2" nullable="false" scale="7" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[Temperature]" ObjectId="1179151246" ColumnId="4" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkNumeric" nullable="false" precision="10" scale="2" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[ValidFrom]" ObjectId="1179151246" ColumnId="5" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkDateTime2" nullable="false" scale="7" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+      <HkCColumnMD Name="[ValidTo]" ObjectId="1179151246" ColumnId="6" OffRowTableId="0" HoBtColumnId="0" HasConstDefault="false">
+        <Type>
+          <HkType type="HkDateTime2" nullable="false" scale="7" />
+        </Type>
+        <ConstDefault>
+          <HkValue SignedIntData="0" />
+        </ConstDefault>
+      </HkCColumnMD>
+    </Columns>
+    <Indexes CIndexes="2">
+      <HkCIndexMD Name="[PK_Warehouse_ColdRoomTemperatures]" ObjectId="1179151246" IndexId="2" IsHashIndex="false" NumBuckets="0" IsUnique="true">
+        <ColumnOrds CColumns="1" _0="0" />
+        <ColumnDesc CColumns="1" _0="false" />
+      </HkCIndexMD>
+      <HkCIndexMD Name="[IX_Warehouse_ColdRoomTemperatures_ColdRoomSensorNumber]" ObjectId="1179151246" IndexId="3" IsHashIndex="false" NumBuckets="0" IsUnique="false">
+        <ColumnOrds CColumns="1" _0="1" />
+        <ColumnDesc CColumns="1" _0="false" />
+      </HkCIndexMD>
+    </Indexes>
+  </HkCTableMD>
+</MatRoot>
